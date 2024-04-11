@@ -24,16 +24,16 @@ Examples are provided in the test folder:
 + test\test_model.py - how the class "conformal_ridge_regression_1S" can be used;
 + test\test_method.py - how the package is used to predict a lower bound curve on a simulated data set.
 
-### Arborescence
+### Tree
 
 + conformal_poly_ridge_reg_1S
   + data
-    + data_prepare.py
-    + custom_dataset.py
+    + data_prepare.py - format input and output numpy array into "dataLoader"
+    + custom_dataset.py - generate a simulated data sample
   + model
-    + conf_pred_poly_ridge_reg_1S.py
+    + conf_pred_poly_ridge_reg_1S.py - predict confidence regions
   + utils
-    + utils.py
+    + utils.py - usefull function
 
 + test
   + test_custom_dataset.py
